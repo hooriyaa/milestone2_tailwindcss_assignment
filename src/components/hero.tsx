@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 const HeroSection = () => {
   return (
-    <section className="mx-auto max-w-6xl bg-white flex items-center px-4  mt-72 md:mt-0 overflow-hidden">
+    <section className="mx-auto max-w-6xl bg-white flex items-center px-4 mt-20 mb-7 sm:mt-0 overflow-hidden">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-1 items-center">
       <motion.div
           initial={{ opacity: 0, scale: 0.9 }}

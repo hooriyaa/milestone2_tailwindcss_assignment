@@ -13,7 +13,7 @@ export default function AboutSection() {
   };
 
   return (
-    <section className="container mx-auto px-4 pt-28 flex flex-col md:flex-row items-center gap-12">
+    <section className="container mx-auto px-4 mb-7 pt-28 flex flex-col md:flex-row items-center gap-12">
       <motion.div
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}

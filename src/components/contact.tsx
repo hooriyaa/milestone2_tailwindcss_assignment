@@ -9,8 +9,8 @@ import contactImage from "../../public/home.png";
 
 export default function ContactSection() {
   return (
-    <section className="bg-[#f8fafc] mx-auto max-w-6xl mt-24 flex items-center  ">
-      <div className="container mx-auto px-4  mt-96   md:mt-0  overflow-hidden ">
+    <section className="bg-[#f8fafc] mx-auto max-w-6xl mb-7 sm:mt-0 overflow-hidden flex items-center  ">
+      <div className="container mx-auto px-4  mt-28 sm:mt-28 overflow-hidden ">
         <div className="flex flex-col md:flex-row items-center justify-between gap-8 md:ml-9 ">
           {/* Left Side - Form */}
           <motion.div 
